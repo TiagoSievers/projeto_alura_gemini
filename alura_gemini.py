@@ -13,7 +13,7 @@ import streamlit as st
 import google.generativeai as genai
 from PIL import Image
 
-genai.configure(api_key="AIzaSyA0gMN7n2qkJqU6Owoxx55rZJkWNiiOQbA")
+genai.configure(api_key="GOOGLE_API_KEY")
 
 ## função para carregar o Gemino Pro model and obter as resposta
 generation_config = {
